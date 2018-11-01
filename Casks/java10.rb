@@ -1,4 +1,4 @@
-cask 'java' do
+cask 'java10' do
   version '10.0.2,13:19aef61b38124481863b1413dce1855f'
   sha256 '2db323c9c93e7fb63e2ed7e06ce8150c32d782e3d0704be6274ebb2d298193aa'
 
@@ -6,7 +6,7 @@ cask 'java' do
       cookies: {
                  'oraclelicense' => 'accept-securebackup-cookie',
                }
-  name 'Java Standard Edition Development Kit'
+  name 'Java 10 Standard Edition Development Kit'
   homepage "https://www.oracle.com/technetwork/java/javase/downloads/jdk#{version.major}-downloads-4416644.html"
 
   # auto_updates true: JDK does not auto-update
